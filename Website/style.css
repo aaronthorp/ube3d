@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: local("Helvetica Neue Light"), local("HelveticaNeue-Light"), url("/fonts/HelveticaNeue-Light.ttf") format("truetype"), url("/fonts/HelveticaNeue-Light.woff") format("woff");
+    font-weight: 300;
+}
+
+* {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light";
+  text-rendering: optimizeLegibility !important;
+}
+
+body {
+  background-color: #252525;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #E0E0E0
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+  margin: 0 auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    width: 500px;
+}
